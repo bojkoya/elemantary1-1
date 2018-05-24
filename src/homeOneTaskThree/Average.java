@@ -21,7 +21,7 @@ public class Average {
 
         int averSum = sum/list.length;
 
-        System.out.println("Massive is: " + Arrays.toString(list));
+        System.out.println("Array is: " + Arrays.toString(list));
         System.out.println("Average sum of list is: " +averSum);
 
     }
