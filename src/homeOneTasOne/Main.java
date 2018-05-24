@@ -11,7 +11,7 @@ public class Main {
 
 
         for (int i = 100; i > 0; i--) {
- 
+
             if (i % 3 == 0 && i % 5 == 0) {
                 list.add("test ");
             }

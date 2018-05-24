@@ -14,5 +14,8 @@ public class SimpleOrNot {
         System.out.print("Enter number: ");
         Scanner sc = new Scanner(System.in);
         System.out.println(isPrime(sc.nextLong()));
+
+
+
     }
 }
