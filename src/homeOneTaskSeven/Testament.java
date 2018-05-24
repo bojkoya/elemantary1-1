@@ -22,10 +22,11 @@ public class Testament {  public static void main(String[] args)  throws IOExcep
             stack.push(s.toString());
         }
 
-        System.out.println("Количество символов: "+file.length());
-        System.out.println("Количество строк: "+stack.getSize());
+        System.out.println("Count of characters: "+file.length());
+        System.out.println("Count of lines: "+stack.getSize());
 
     }
+
     finally
     {
         if(fr!=null)
